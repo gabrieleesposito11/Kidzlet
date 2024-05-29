@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54FF390F2B85007500C629C7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF390E2B85007500C629C7 /* ViewModel.swift */; };
+		54FF39112B85008A00C629C7 /* Domande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39102B85008A00C629C7 /* Domande.swift */; };
+		54FF39132B8500B900C629C7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39122B8500B900C629C7 /* TimerView.swift */; };
+		54FF39152B8500D900C629C7 /* ListaDomande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39142B8500D900C629C7 /* ListaDomande.swift */; };
+		54FF39172B852DA200C629C7 /* SecondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39162B852DA200C629C7 /* SecondQuestion.swift */; };
+		E00B70DA2B8391DF00AB200E /* BimbiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B70D92B8391DF00AB200E /* BimbiApp.swift */; };
+		E00B70DC2B8391DF00AB200E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B70DB2B8391DF00AB200E /* ContentView.swift */; };
+		E00B70DE2B8391E000AB200E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00B70DD2B8391E000AB200E /* Assets.xcassets */; };
+		E00B70E12B8391E000AB200E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00B70E02B8391E000AB200E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54FF390E2B85007500C629C7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		54FF39102B85008A00C629C7 /* Domande.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domande.swift; sourceTree = "<group>"; };
+		54FF39122B8500B900C629C7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		54FF39142B8500D900C629C7 /* ListaDomande.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDomande.swift; sourceTree = "<group>"; };
+		54FF39162B852DA200C629C7 /* SecondQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestion.swift; sourceTree = "<group>"; };
+		E00B70D62B8391DF00AB200E /* Bimbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bimbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00B70D92B8391DF00AB200E /* BimbiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimbiApp.swift; sourceTree = "<group>"; };
+		E00B70DB2B8391DF00AB200E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E00B70DD2B8391E000AB200E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00B70E02B8391E000AB200E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00B70D32B8391DF00AB200E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00B70CD2B8391DF00AB200E = {
+			isa = PBXGroup;
+			children = (
+				E00B70D82B8391DF00AB200E /* Bimbi */,
+				E00B70D72B8391DF00AB200E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00B70D72B8391DF00AB200E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00B70D62B8391DF00AB200E /* Bimbi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00B70D82B8391DF00AB200E /* Bimbi */ = {
+			isa = PBXGroup;
+			children = (
+				E00B70D92B8391DF00AB200E /* BimbiApp.swift */,
+				E00B70DB2B8391DF00AB200E /* ContentView.swift */,
+				54FF390E2B85007500C629C7 /* ViewModel.swift */,
+				54FF39102B85008A00C629C7 /* Domande.swift */,
+				54FF39162B852DA200C629C7 /* SecondQuestion.swift */,
+				54FF39122B8500B900C629C7 /* TimerView.swift */,
+				54FF39142B8500D900C629C7 /* ListaDomande.swift */,
+				E00B70DD2B8391E000AB200E /* Assets.xcassets */,
+				E00B70DF2B8391E000AB200E /* Preview Content */,
+			);
+			path = Bimbi;
+			sourceTree = "<group>";
+		};
+		E00B70DF2B8391E000AB200E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E00B70E02B8391E000AB200E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00B70D52B8391DF00AB200E /* Bimbi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00B70E42B8391E000AB200E /* Build configuration list for PBXNativeTarget "Bimbi" */;
+			buildPhases = (
+				E00B70D22B8391DF00AB200E /* Sources */,
+				E00B70D32B8391DF00AB200E /* Frameworks */,
+				E00B70D42B8391DF00AB200E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bimbi;
+			productName = Bimbi;
+			productReference = E00B70D62B8391DF00AB200E /* Bimbi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00B70CE2B8391DF00AB200E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E00B70D52B8391DF00AB200E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E00B70D12B8391DF00AB200E /* Build configuration list for PBXProject "Bimbi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00B70CD2B8391DF00AB200E;
+			productRefGroup = E00B70D72B8391DF00AB200E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00B70D52B8391DF00AB200E /* Bimbi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00B70D42B8391DF00AB200E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00B70E12B8391E000AB200E /* Preview Assets.xcassets in Resources */,
+				E00B70DE2B8391E000AB200E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00B70D22B8391DF00AB200E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FF39152B8500D900C629C7 /* ListaDomande.swift in Sources */,
+				54FF39112B85008A00C629C7 /* Domande.swift in Sources */,
+				54FF39172B852DA200C629C7 /* SecondQuestion.swift in Sources */,
+				E00B70DC2B8391DF00AB200E /* ContentView.swift in Sources */,
+				54FF390F2B85007500C629C7 /* ViewModel.swift in Sources */,
+				54FF39132B8500B900C629C7 /* TimerView.swift in Sources */,
+				E00B70DA2B8391DF00AB200E /* BimbiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E00B70E22B8391E000AB200E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E00B70E32B8391E000AB200E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00B70E52B8391E000AB200E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bimbi/Preview Content\"";
+				DEVELOPMENT_TEAM = F63TK3NQ96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Techx.workers.Kidzlet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00B70E62B8391E000AB200E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bimbi/Preview Content\"";
+				DEVELOPMENT_TEAM = F63TK3NQ96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Techx.workers.Kidzlet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00B70D12B8391DF00AB200E /* Build configuration list for PBXProject "Bimbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00B70E22B8391E000AB200E /* Debug */,
+				E00B70E32B8391E000AB200E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00B70E42B8391E000AB200E /* Build configuration list for PBXNativeTarget "Bimbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00B70E52B8391E000AB200E /* Debug */,
+				E00B70E62B8391E000AB200E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00B70CE2B8391DF00AB200E /* Project object */;
+}
